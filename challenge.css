@@ -1,0 +1,122 @@
+
+body {
+  font-family: 'Poppins', sans-serif; 
+  background: #f5e1f3; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  border: 3px solid #ff76d1;
+}
+
+h1 {
+  color: #ff76d1; 
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+#score {
+  font-size: 1.1rem;
+  color: #6c3ad3; 
+}
+
+
+#question {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+#answers {
+  margin-top: 1rem;
+}
+
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: #ff76d1;
+  border: 2px solid #ff76d1;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff4ba1;
+  transform: scale(1.05); 
+}
+
+button:disabled {
+  background-color: #ffb3d9; 
+  cursor: not-allowed;
+}
+
+
+.option-btn {
+  display: block;
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: #f1c6f7; 
+  border: 2px solid #f1c6f7;
+  border-radius: 10px;
+  color: #6c3ad3; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.option-btn:hover {
+  background-color: #ff76d1; 
+  transform: scale(1.05);
+}
+
+.option-btn.correct {
+  background-color: #a5e6a7; 
+  border-color: #4caf50;
+  color: #155724;
+}
+
+.option-btn.wrong {
+  background-color: #f7a8a8;
+  border-color: #f44336;
+  color: #721c24;
+}
+
+
+#next {
+  background-color: #ff76d1; 
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#next:hover {
+  background-color: #ff4ba1;
+  transform: scale(1.05);
+}
+
+#next:disabled {
+  background-color: #ffb3d9;
+  cursor: not-allowed;
+}
+
